@@ -1,0 +1,89 @@
+body{
+
+}
+header{
+    background: #777777;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    margin-left: 34px;
+    float: left;
+    padding: 10px 0;
+    height: 48px;
+    width: 82px;
+}
+Nav{
+    float: left;
+}
+Nav ul{
+    margin-left: 46px;
+    padding:0px;
+}
+Nav li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+Nav a{
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-decoration: none;
+}
+Nav a:hover{
+    color:black;
+}
+Nav a::before{
+    position: relative;
+    top: 0%;
+    width: 0%;
+
+    transition: all ease-in-out 250cm;
+}
+Nav a:hover::before{
+    width: 100%;
+}
+#displayDateTime{
+    float: right;
+    padding: 10px;
+    color: whitesmoke;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+h4{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    text-align: center;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .some{
+      background-image:url("https://edgecappartners.com/wp-content/uploads/2020/03/autumn-mood-forest-background-image-calm-waters-clouds-2289206.jpg");
+  }
+  #Me{
+      color: silver;
+  }
+/*.Run{
+    background-image: url("https://wallpapercave.com/wp/wp2003930.jpg");
+}*/
+
+  
